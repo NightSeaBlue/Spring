@@ -1,0 +1,23 @@
+package exercise.order.repository;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import exercise.order.domain.Customer;
+
+@Component
+public class CustomerRepositoryImpl implements CustomerRepository {
+
+	@Autowired
+	@Override	
+	public void save(Customer customer) {
+		System.out.println(customer + "가 저장되었습니다.");
+	}
+	
+	@Autowired
+	@Override	
+	public void delete(long id) {
+		System.out.println(id + "번 고객이 삭제되었습니다.");
+	}
+
+}

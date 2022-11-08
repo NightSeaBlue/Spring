@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--  Bean 정의 -->
+<!--  1. 기본형 멤버 값 지정 -->
+<!--  (1) 생성자 함수로 지정 -->
+
+<bean id='member' class="ex1_xml2_ref.MemberBean">
+	<constructor-arg value='홍길국'/>
+	<constructor-arg value='22'/>
+	<constructor-arg >
+		<value>안녕하시렵니까? 겔겔겔</value>
+	</constructor-arg>
+</bean>
+
+<!-- 1. 기본형 멤버 값 지정 -->
+<!-- (2) Setter로 지정 -->
+<bean id='member2' class="ex1_xml2_ref.MemberBean">
+	<property name="name" value='홍길자'/>
+	<property name="age">
+		<value>55</value>
+	</property>
+	<property name="message" value='어르신의 청춘은 지금입니다.'/>
+
+</bean>
+
+
+</beans>

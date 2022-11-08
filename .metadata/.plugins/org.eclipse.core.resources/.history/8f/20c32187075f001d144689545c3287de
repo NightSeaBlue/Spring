@@ -1,0 +1,18 @@
+package ex1_xml2_ref;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import ex1_xml1.MessageBean;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// [1] Spring 설정 파일 연결
+		ApplicationContext context = new ClassPathXmlApplicationContext("ex1_xml2_ref/applicationContext.xml");
+		
+		// [2] 빈 가져오기
+		MessageBean bean = context.getBean("member",MessageBean.class);
+	}
+
+}

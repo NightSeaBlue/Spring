@@ -1,0 +1,13 @@
+package ex1_xml1;
+
+public class MessageBeanKoImpl implements MesssageBean {
+	
+	public MessageBeanKoImpl() {
+		System.out.println("MessageBeanKoImpl 객체 생성");
+	}
+	
+	
+	public void sayHello(String name) {
+		System.out.println(name+"님 반갑읍니다.");
+	}
+}

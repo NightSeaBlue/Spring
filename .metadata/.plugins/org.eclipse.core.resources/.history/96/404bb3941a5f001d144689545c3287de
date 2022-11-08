@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- Bean 정의 -->
+<bean id='message' class="ex3_autowiring.MessageBeanImpl">
+	<property name="name" value='홍길정'/> <!--  setName() -->
+	<property name="message" value='이...이게뭐고?'/>  <!-- setMessage() -->
+</bean>
+
+<bean id='outputer' class="ex3_autowiring.OutputerImpl">
+	<property name="path"></property>			<!--  setPath() -->
+</bean>
+
+</beans>

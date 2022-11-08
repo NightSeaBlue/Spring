@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Bean 정의 -->
+	<bean id='bean' class="ex1_xml3_list.ListBean">
+		<property name="intList">	<!-- setIntList() 호출 -->
+			<list>
+				<value>22</value>
+				<value>33</value>
+				<value>44</value>
+				<value>55</value>
+				<value>66</value>
+			</list>
+		</property>
+
+		<property name="memberList">
+			<list>
+				<ref bean=''/>
+				<ref bean=''/>
+			</list>
+		</property>
+	</bean>
+	
+	<bean id='m1' class="ex1_xml3_list.MemberBean"/>
+
+</beans>

@@ -1,0 +1,16 @@
+package ex1_xml1;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		// 0. 기존 자바방식 (POJO // Plain Old Java Object)
+		
+		/*MesssageBean bean = new MessageBeanKoImpl();
+		bean.sayHello("홍길동");
+		
+		MesssageBean bean2 = new MessageBeanEnImpl();
+		bean2.sayHello("John");*/
+
+	}
+
+}

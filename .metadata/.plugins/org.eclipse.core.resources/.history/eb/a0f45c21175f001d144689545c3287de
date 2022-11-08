@@ -1,0 +1,21 @@
+package ex3_autowiring;
+
+public class MessageBeanImpl implements MessageBean{
+
+	private String name;
+	private String message;
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	
+	@Override	// 자바 어노테이션
+	public void sayHello() {
+				
+	}
+	
+}
