@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Spring\aDIHW"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -63,11 +64,13 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="aDIHW"/>
 			<item value="aDI"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="aDIHW"/>
 			<item value="aDI"/>
 		</list>
 		<list key="version">
@@ -77,5 +80,17 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>

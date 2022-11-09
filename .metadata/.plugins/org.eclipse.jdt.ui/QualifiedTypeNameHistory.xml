@@ -1,2 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="ex1_xml1.MessageBeanEnImpl"/>
+<fullyQualifiedTypeName name="ex1_xml1.MesssageBean"/>
+<fullyQualifiedTypeName name="ex1_xml1.MessageBeanKoImpl"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="ex1_xml1.MessageBean"/>
+<fullyQualifiedTypeName name="ex1_xml2_ref.MemberBean"/>
+<fullyQualifiedTypeName name="ex1_xml2_ref.MemberDAO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="ex1_xml3_list.ListBean"/>
+<fullyQualifiedTypeName name="ex1_xml3_list.MemberBean"/>
+<fullyQualifiedTypeName name="ex2_annotation.MemberDAO"/>
+<fullyQualifiedTypeName name="ex3_autowiring.MessageBean"/>
+<fullyQualifiedTypeName name="ex3_autowiring.MessageBeanImpl"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="ex3_autowiring.Outputer"/>
+<fullyQualifiedTypeName name="javax.annotation.Resource"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.EnableAspectJAutoProxy"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+</qualifiedTypeNameHistroy>
