@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="member.mapper">
+	<insert id="insertMember" parameterType="member">
+		INSERT INTO member(userid,userpass,username) VALUES (#{userid},#{userpass},#{username})
+	</insert>
+	
+	
+	<!--  mybatis 값 지정시 
+		- ${변수} : Statement 이용 (값이 지정되어 있는 경우)
+	    - #{변수} : PreparedStatement 객체를 이용 (문자열인 경우 자동으로 '' 씌워줌)
+	-->
+	<!--  모든 목록 찾기 -->
+ 	<select id="getMemberList" parameterType="member" resultType="member">
+ 		SELECT * FROM member 
+ 	</select>
+ 	
+ 	<!-- 아이디가 m01인 레코드에서 이름을 m09로 변경 -->
+	<update id="updateMember" parameterType="member">
+		UPDATE  member SET userid=#{userid} , username=#{username} WHERE userid=#{userid} 
+	</update>
+	<delete id="deleteMember" parameterType="member">
+		DELETE member WHERE userid=#{userid}	
+	</delete> 
+
+</mapper>
